@@ -6,6 +6,8 @@
 
 class Animal
 {
+	protected:
+		std::string _type;
 	public:
 		Animal();
 		Animal(std::string type);
@@ -17,8 +19,6 @@ class Animal
 		std::string getType () const;
 
 		Animal & operator = (Animal const &other);
-	protected:
-		std::string _type;
 };
 
 #endif

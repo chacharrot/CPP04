@@ -15,5 +15,5 @@ int	main() {
 	std::cout << animal[1]->getType() << "'s idea 1 is " << animal[1]->getBrain()->getIdeas(1) << std::endl;
 	delete j;
 	delete i;
-	system("leaks second");
+	system("leaks brain");
 }

@@ -26,11 +26,6 @@ std::string Animal::getType() const
 	return this->_type;
 }
 
-void Animal::makeSound() const
-{
-	std::cout << "Animal: - I don't have any voice!" << std::endl;
-}
-
 Brain *Animal::getBrain()
 {
 	std::cout << "Where is my brain?" << std::endl;

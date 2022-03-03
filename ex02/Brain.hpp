@@ -4,6 +4,8 @@
 
 class Brain
 {
+	private:
+		std::string ideas[100];
 	public:
 		Brain();
 		Brain(Brain const &other);
@@ -12,8 +14,6 @@ class Brain
 
 		std::string getIdeas (int i);
 		void		setIdeas(std::string think);
-	private:
-		std::string ideas[100];
 };
 
 #endif
