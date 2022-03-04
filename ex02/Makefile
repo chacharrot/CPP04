@@ -1,5 +1,5 @@
 NAME = abstract
-CC = clang++
+CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 
 FILES = $(wildcard *.cpp)
